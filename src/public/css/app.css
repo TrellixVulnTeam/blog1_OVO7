@@ -1,0 +1,24 @@
+h1 {
+  color: black; }
+
+.user-avt {
+  width: 20%;
+  border-radius: 50%;
+  margin-right: 4px; }
+
+.trash {
+  width: 3%; }
+
+.css {
+  display: flex;
+  margin: 5px;
+  width: 100%;
+  height: 100%; }
+
+.card-item {
+  margin-top: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.8); }
+
+.select-options {
+  width: 120px;
+  margin: 0 16px; }

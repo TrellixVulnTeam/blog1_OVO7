@@ -1,0 +1,42 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "scripts": {
+    "beautiful": "prettier --single-quote --tab-width 4 --trailing-comma all --write ./src/**/*.{js,scss}",
+    "watch": "node-sass --watch ./src/resources/scss/ --output ./src/public/css/",
+    "start": "nodemon --inspect ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanhdat1235/blog1.git"
+  },
+  "keywords": [
+    "bla",
+    "nle"
+  ],
+  "author": "ThanhDat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanhdat1235/blog1/issues"
+  },
+  "homepage": "https://github.com/thanhdat1235/blog1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.0.1",
+    "mongoose-delete": "^0.5.4",
+    "mongoose-slug-generator": "^1.0.4"
+  },
+  "devDependencies": {
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "morgan": "^1.10.0",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
+  },
+  "description": ""
+}
